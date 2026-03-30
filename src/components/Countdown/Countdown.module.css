@@ -3,7 +3,7 @@
   gap: 1.5em;
   margin: 2.5em auto;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     gap: 1em;
   }
 
@@ -12,10 +12,6 @@
   }
 
   @media (max-width: 300px) {
-    gap: 0.5em;
-  }
-
-  @media (max-width: 280px) {
     flex-direction: column;
   }
 }
